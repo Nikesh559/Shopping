@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fontawesome.bootstrapcheatsheets.com/">
+    <link rel="stylesheet" href="overlay.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .my{
+           margin:25px 10px; 
+        }
+        .me {
+            background-color:white;
+            width: 300px;
+        }
+        .me h4{
+            text-align: center;
+        }
+        
+    </style>
+    <body >
+        <div class="sidebar">
+            <div class="user">
+                <i class="far fa-user-circle"></i>
+                <i class="fas fa-times" style="float: right; font-size: 20px;" onclick="change()"></i>
+                <h1>Hello</h1>
+            </div>
+            <h3>CATEGORY</h3>
+            <ul>
+                <li>TV, Mobiles<i class="fas fa-chevron-right"></i></li>
+                <li>Car, Motorbike<i class="fas fa-chevron-right"></i></li>
+                <li>Computers,Laptop<i class="fas fa-chevron-right"></i></li>
+                <li>Home,Kitchen<i class="fas fa-chevron-right"></i></li>
+                <li>Shoes<i class="fas fa-chevron-right"></i></li>
+                <li>Men's Fashion<i class="fas fa-chevron-right"></i></li>
+                <li>Cosmetics<i class="fas fa-chevron-right"></i></li>
+                <li>Fitness Bags,Sports<i class="fas fa-chevron-right"></i></li>
+                <li>Grocery<i class="fas fa-chevron-right"></i></li>
+                <li>Books<i class="fas fa-chevron-right"></i></li>
+            </ul>
+            <hr>
+            <h3>HELP</h3>
+            <ul>
+                <li>Your Account</li>
+                <li>Orders</li>
+                <li>Profile</li>
+                <li>Sign Out</li>
+            </ul>
+        </div>
+        <div class="menu" >
+            <div class="icons">
+            <i class="fas fa-th-list my i1" onclick="change()"></i>
+            </div>
+            <h1>MyProject</h1>
+            <div class="search"><input placeholder="Search" type="text"><i class="fas fa-search"></i></div>
+            <ul>
+                <li>Login <i class="fas fa-sign-in-alt"></i></li>
+                
+                <li>Mobiles <i class="fas fa-mobile"></i></li>
+                <li>Books <i class="fas fa-book"></i></li>
+                <li>Cart <i class="fas fa-shopping-cart"></i></li>
+            </ul>
+        </div>
+        <div class="container" style="margin-top:300px">
+            <div class="row">
+                <div class="col-md-5 col-lg-4 my">
+                    <div class="sale">
+                        <h4><b>Great Indian Sale</b></h4>
+                        <center><img src="sales.jpg" alt=""></center>
+                        <p>Sale Starts from <b id="date"></b></p>
+                        <a href="">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-5 col-lg-4 my">
+                    <div class="sale">
+                        <h4><b>Special Offers</b></h4>
+                        <center><img src="Shoes/s1.jpg" alt=""></center>
+                        <p>Puma Shoes</p>
+                        <a href="">Know More</a>
+                    </div>
+                </div>
+                <div class="col-md-11 col-lg-2 my">
+                    <div class="row">
+                        <div class="col">
+                            <div class="sale1">
+                                <h4> <i class="fas fa-download"></i> <b>Download App</b> </h4>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="sale2">
+                                <h4><b>Avengers Endgame</b></h4>
+                                <center><img src="avenger.jpg" alt=""></center>
+                                <p>Movie tickets</p>
+                                <a href="">Know more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+        <br><br>
+        <div class="list1"style="overflow-x: hidden;background-color:white;">
+            <h4><b>Top brand collections</b></h4>
+       <div id="list">
+           <div class="cards">
+               <div><p>₹1000.00-₹1500.00</p></div>
+            <img src="Shoes/s1.jpg" alt="">
+            </div>
+            <div class="cards">
+                <div><p>₹1000.00-₹1500.00</p></div>
+             <img src="Shoes/s2.jpg" alt="">
+             </div>
+             <div class="cards">
+                <div><p>₹1000.00-₹1500.00</p></div>
+             <img src="Shoes/s3.jpg" alt="">
+             </div>
+             <div class="cards">
+                <div><p>₹1000.00-₹1500.00</p></div>
+             <img src="Shoes/s4.jpg" alt="">
+             </div>
+             <div class="cards">
+                <div><p>₹1000.00-₹1500.00</p></div>
+             <img src="Shoes/s5.jpg" alt="">
+             </div>
+             <div class="cards">
+                <div><p>₹1000.00-₹1500.00</p></div>
+             <img src="Shoes/s1.jpg" alt="">
+             </div>
+             <div class="cards">
+                <div><p>₹1000.00-₹1500.00</p></div>
+             <img src="Shoes/s5.jpg" alt="">
+             </div>
+             <div class="cards">
+                <div><p>₹1000.00-₹1500.00</p></div>
+             <img src="Shoes/s1.jpg" alt="">
+             </div>
+           
+       </div>
+       <button onclick="right()">See more</button>
+       </div>
+       <div class="container" style="margin:auto;">
+           <div class="row">
+               <div class="col-md-6 col-lg-4 m1">
+                <div class="links">
+                    <h4><i class="fas fa-user"></i><b>Top Links</b></h4>
+                    <center>
+
+                    <div>
+                        <img src="Grocery/g1.jpg" alt="">
+                        <p>nutella</p>
+                    </div>
+                    <div>
+                        <img src="Grocery/g2.jpg" alt="">
+                        <p>Horlicks</p>
+                    </div>
+                    <div>
+                        <img src="Grocery/g3.jpg" alt="">
+                        <p>Bourn vita</p>
+                    </div>
+                    <div>
+                        <img src="Grocery/g4.jpg" alt="">
+                        <p>Whey Protein</p>
+                    </div>
+                    </center>
+                    <a href="">See more</a>
+                </div>
+               </div>
+               <div class="col-md-6 col-lg-4 m1">
+                <div class="links">
+                    <h4><b>Upto 60% off:T-shirts</b></h4>
+                    <center>
+                    <div>
+                        <img src="shirt/t1.jpg" alt="">
+                        <p>US polo</p>
+                    </div>
+                    <div>
+                        <img src="shirt/t2.jpg" alt="">
+                        <p>Lee Cooper</p>
+                    </div>
+                    <div>
+                        <img src="shirt/t3.jpg" alt="">
+                        <p>Levi</p>
+                    </div>
+                    <div>
+                        <img src="shirt/t4.jpg" alt="">
+                        <p>Nike</p>
+                    </div>
+                    </center>
+                    <a href="">See more</a>
+                </div>
+               </div>
+               <div class="col-lg-4 m1">
+                <div class="links">
+                    <h4><b>Samsung Galaxy</b></h4>
+                    <center>
+                    <div>
+                        <img src="Mobile/m1.jpg" alt="">
+                        <p>US polo</p>
+                    </div>
+                    <div>
+                        <img src="Mobile/m2.jpg" alt="">
+                        <p>Lee Cooper</p>
+                    </div>
+                    <div>
+                        <img src="Mobile/m3.jpg" alt="">
+                        <p>Levi</p>
+                    </div>
+                    <div>
+                        <img src="Mobile/m4.jpg" alt="">
+                        <p>Nike</p>
+                    </div>
+                    </center>
+                    <a href="">See more</a>
+                </div>
+               </div>
+           </div>
+       </div>
+       <div class="footer" style="background-color: darkblue;">
+           <p><a href="Back to Top"></a></p>
+           <div class="container">
+               <div class="row">
+                <div class="col-md-6 col-lg-3">
+                    <h4>Get to Knows us</h4>
+                    <ul>
+                        <li>About US</li>
+                        <li>Careers</li>
+                        <li>Gift a Smile</li>
+                        <li>Press Releases</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4>Connect us on</h4>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4>Make Money with us</h4>
+                    <ul>
+                        <li>Sell on Amazon</li>
+                        <li>Become Affiliate</li>
+                        <li>Fulfilment By Amazon</li>
+                        <li>Advertise your Products</li>
+                        <li>Sell under Accerelator</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <h4>Let us help you</h4>
+                    <ul>
+                        <li>Your Account</li>
+                        <li>Return Centre</li>
+                        <li>100% Purchase Protection</li>
+                        <li>App Download</li>
+                        <li>Help</li>
+                    </ul>
+                </div>
+               </div>
+           </div>
+       </div>
+       
+    </body>
+</head>
+
+<script>
+    let b = true;
+    function change(){
+        if(b){
+            b=false;
+            let z = document.getElementsByClassName("sidebar");
+            z[0].style.width="300px";
+        }
+        else{
+            b=true;
+            let z = document.getElementsByClassName("sidebar");
+            z[0].style.width="0%";
+        }
+    }
+    let date = new Date();
+    let ex = date.toDateString();
+    document.getElementById("date").innerHTML=ex;
+    let total = document.querySelectorAll("#list .cards");
+    let pad = document.getElementById("list");
+    let n = total.length*230 + 30+(10*(total.length-1));
+    console.log(n);
+    total=n;
+    document.getElementById("list").style.width=n+"px";
+    let w = innerWidth;
+    let move=1;
+    let step = (total/w-1);
+    function right(){
+        console.log(step);
+        step--;
+        if(step>0)
+        pad.style.marginLeft=(-move*100)+"%" ;
+        else{
+            pad.style.marginLeft=(-(total/w-1)*100)+"%" ;
+        }
+        move++;
+    }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether-select/1.1.1/js/select.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</html>

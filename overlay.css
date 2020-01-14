@@ -1,0 +1,328 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.sidebar{
+  z-index: 1;
+  float:left ;
+  position: absolute;
+  height: 100%;
+  width: 0px;
+  background-color: white;
+  transition: 0.3s;
+  color: rgb(8, 8, 8);
+  overflow: scroll;
+}
+.sidebar ul{
+  list-style: none;
+}
+.menu{
+  overflow-x: scroll;
+}
+.menu ul{
+  list-style: none;
+  float:right;
+  padding-top:10px ;
+}
+.menu ul li{
+  float: left;
+  transition: 0.3s;
+  font-size: 20px;
+  margin: 10px;
+  border: 2px solid darkblue;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: darkblue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu .search,.menu h1 {
+  float: left;
+}
+.menu{
+  border-bottom:4px solid darkblue;
+  overflow: hidden;
+}
+.menu h1{
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 10px 20px;
+  color: darkblue;
+}
+.menu .search{
+  margin-left: 10%;
+  padding: 20px;
+  position: relative;
+}
+.menu .search input{
+  width: 250px;
+  height: 35px;
+  border-radius: 20px;
+  border:2px solid grey;
+  padding-left: 10px;
+}
+.menu .search i{
+  margin-left: -24px;
+  color: grey;
+}
+.menu ul li:hover{
+  background-color: darkblue;
+  color:white;
+}
+.menu .i1{
+  width:60px;
+  text-align: center;
+  transition: 0.2s;
+}
+.menu .search input:focus{
+  border-color: blue;
+  box-shadow: 2px 2px 2px lightblue;
+}
+.menu .search input:focus + i{
+  color:blue;
+}
+.sidebar .user i{
+  float: left;
+  font-size: 40px;
+  padding: 10px;
+}
+.sidebar .user h1{
+  padding: 10px 20px;
+}
+.sidebar .user{
+  background-color: darkblue;
+  color: white;
+  height: 60px;
+}
+.sidebar ul{
+  width:90%;
+  margin: auto;
+}
+.sidebar ul li{
+  font-size: 20px;
+  text-align: center;
+  padding: 14px 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu .my{
+  display: block;
+  float: left;
+  padding: 15px;
+  margin:5px;
+  font-size: 30px;
+  color: darkblue;
+  border-radius: 4px;
+}
+.icons:hover .my{
+background-color: darkblue;
+color: white;
+}
+.sidebar ul li{
+  overflow: hidden;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sidebar ul li i {
+  position: absolute;
+  right: 20px;
+}
+.sidebar ul li:hover{
+  background-color: rgb(201, 193, 193);
+}
+.sidebar h3{
+  padding: 10px 40px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: grey;
+}
+body{
+  background-image: url("ecom.jpg");
+  background-size:cover;
+  background-position: 0px 90px;
+  background-repeat: no-repeat;
+  animation: 10s run infinite;
+}
+@keyframes run{
+  0%{
+    background-position:0px 90px;
+  }
+  50%{
+    background-position: -400px 90px;
+  }
+
+}
+
+.sale1 i:hover{
+  color:blue;
+}
+.sale{
+      border-radius: 4px;
+      background-color:white;
+      width: 300px;
+      height: 360px;
+      /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  }
+  .sale2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .sale h4,.sale1 h4 ,.sale2 h4{
+    color:black;
+    
+  }
+  .sale img{
+    height: 200px;
+    cursor: pointer;
+    border: 1px solid grey;
+  }
+  .sale h4,.sale p,.sale a,.sale2 a,.sale2 p{
+      padding: 5px 20px;
+  }
+  .sale a,.sale2 a{
+    position: absolute;
+    bottom: 10px;
+  }
+  .me h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:grey;
+  }
+  .me p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .my{
+    margin: 10px;
+  }
+
+.sale1{
+  width:300px;
+  font: 30px;
+  background-color: white;
+  margin-bottom:10px ;
+  text-align: center;
+  padding: 10px;
+}
+.sale2{
+  height:290px ;
+  background-color: white;
+  width:300px;
+}
+.sale2 img{
+  width: 250px;
+  border: 1px solid grey;
+  height: 150px;
+}
+.sale2 h4{
+  text-align: center;
+  padding: 10px;
+}
+.sale2 p{
+  padding:10px;
+}
+#list{
+  padding: 30px;
+  margin-left: 0%;
+  transition: 0.9s;
+}
+#list .cards{
+  display: inline;
+}
+img{
+  width:200px;
+  height: 200px;
+  padding:10px;
+  cursor: pointer;
+}
+.list1{
+  margin: 10px;
+}
+.list1 h4{
+  padding: 10px;
+  font-size: 25px;
+}
+.list1 button{
+  border: none;
+  font-size:15px; 
+  padding: 5px 10px;
+  float: right;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list1 button:hover{
+  background-color: darkblue;
+  color: white;
+}
+.cards{
+  position: relative;
+  padding:10px ;
+}
+.cards div{
+  display: inline;
+  position: absolute;
+  top: 170px;
+}
+.links{
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  font-size: 30x;
+  margin-top:10px;
+}
+
+.links h4{
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.links div{
+  display: inline-flex;
+  width: 120px;
+  height: 130px;
+  margin: 20px;
+  position: relative;
+}
+.links a{
+  font-size: 20px;
+  bottom: 0;
+  left: 20px;
+  position: absolute;
+}
+.links p{
+  position: absolute;
+  bottom: -45px;
+  font-size: 15px;
+}
+.links img{
+  width:120px;
+  height: 130px;
+  border: 1px solid grey;
+  object-fit: cover;
+}
+.footer{
+  color:white;
+}
+.footer ul{
+  list-style: none;
+  margin-bottom: 40px;
+}
+.footer ul li{
+  font-size: 12px;
+}
+.footer h4{
+  margin: 10px 0px;
+}
+@media screen and (max-width: 1097px) {
+  body{
+      min-width: 800px;
+  }
+  
+  .menu .search,.menu ul{
+      display: none;
+  }
+  
+.menu .icons .i2{
+  display: none;
+}
+}
